@@ -1,6 +1,7 @@
 <template>
-    <div id="app">
-        <router-view></router-view>
+    <div>
+        <h4>APP PAGE</h4>
+        <router-view/>
     </div>
 </template>
 <script>
@@ -8,3 +9,9 @@
         name: "App"
     }
 </script>
+<style scope>
+    h4{
+        color: red;
+    }
+</style>
+

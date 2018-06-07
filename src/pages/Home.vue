@@ -14,3 +14,12 @@
         }
     }
 </script>
+<style scope>
+    h1{
+        color: green;
+    }
+    h3{
+        color: blue;
+    }
+</style>
+
