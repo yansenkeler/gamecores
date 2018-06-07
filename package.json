@@ -1,0 +1,39 @@
+{
+  "name": "gamecoresapp",
+  "version": "1.0.0",
+  "description": "gamecores front end page",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack",
+    "dev": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yansenkeler/gamecores.git"
+  },
+  "keywords": [
+    "webpack",
+    "vue"
+  ],
+  "author": "qianyx21",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yansenkeler/gamecores/issues"
+  },
+  "homepage": "https://github.com/yansenkeler/gamecores#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "css-loader": "^0.28.11",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.21.0",
+    "vue-loader": "^15.2.4",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.11.1",
+    "webpack-cli": "^3.0.3",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "vue": "^2.5.16",
+    "vue-router": "^3.0.1"
+  }
+}
