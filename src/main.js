@@ -15,6 +15,7 @@ fontawesome.library.add(solid);
 fontawesome.library.add(regular);
 fontawesome.library.add(brands);
 
+console.log(123);
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 
 Vue.use(BootstrapVue);
